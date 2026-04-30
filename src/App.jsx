@@ -312,20 +312,20 @@ const LOCATIONS = [
   {
     area: "Jackson Heights",
     name: "Jay's Sweets Snackeria",
-    address: "95-11 35th Ave",
-    city: "Jackson Heights, NY",
+    address: "7803 17th Ave",
+    city: "Brooklyn, NY 11214",
   },
   {
     area: "Bushwick",
     name: "Jay's Sweets Snackeria",
-    address: "1601 Gates Ave",
-    city: "Brooklyn, NY",
+    address: "7803 17th Ave",
+    city: "Brooklyn, NY 11214",
   },
   {
     area: "Sunset Park",
     name: "Jay's Sweets Snackeria",
-    address: "5311 5th Ave",
-    city: "Brooklyn, NY",
+    address: "7803 17th Ave",
+    city: "Brooklyn, NY 11214",
   },
 ];
 

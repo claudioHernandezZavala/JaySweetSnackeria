@@ -311,19 +311,19 @@ const MENU_DATA = [
 const LOCATIONS = [
   {
     area: "Jackson Heights",
-    name: "Jay Sweets Snackeria",
+    name: "Jay's Sweets Snackeria",
     address: "95-11 35th Ave",
     city: "Jackson Heights, NY",
   },
   {
     area: "Bushwick",
-    name: "Jay Sweets Snackeria",
+    name: "Jay's Sweets Snackeria",
     address: "1601 Gates Ave",
     city: "Brooklyn, NY",
   },
   {
     area: "Sunset Park",
-    name: "Jay Sweets Snackeria",
+    name: "Jay's Sweets Snackeria",
     address: "5311 5th Ave",
     city: "Brooklyn, NY",
   },
@@ -412,7 +412,7 @@ const HomeView = ({ onNavigate }) => (
             NYC Paleteria
           </div>
           <h1 className="font-paytone text-5xl leading-none text-white drop-shadow-[4px_4px_0_rgba(31,23,32,0.7)] sm:text-6xl lg:text-8xl">
-            Jay Sweets Snackeria
+            JAY'S SWEETS SNACKERIA
           </h1>
           <p className="mt-6 max-w-2xl text-lg font-black leading-relaxed text-white sm:text-2xl">
             Mexican snacks, paletas, aguas frescas, and loaded antojitos with
@@ -672,8 +672,9 @@ const LocationsView = () => (
           </h1>
         </div>
         <p className="max-w-2xl text-lg font-black leading-relaxed text-[#211620]">
-          Explore Jay Sweet Snackeria' New York locations. We are expanding and
-          look forward to bringing more neighborhoods incredible Mexican snacks.
+          Explore Jay's Sweet Snackeria' New York locations. We are expanding
+          and look forward to bringing more neighborhoods incredible Mexican
+          snacks.
         </p>
       </div>
     </section>

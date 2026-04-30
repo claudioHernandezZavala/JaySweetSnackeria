@@ -311,19 +311,19 @@ const MENU_DATA = [
 const LOCATIONS = [
   {
     area: "Jackson Heights",
-    name: "Snackeria Antojitos",
+    name: "Jay Sweets Snackeria",
     address: "95-11 35th Ave",
     city: "Jackson Heights, NY",
   },
   {
     area: "Bushwick",
-    name: "Snackeria Antojitos",
+    name: "Jay Sweets Snackeria",
     address: "1601 Gates Ave",
     city: "Brooklyn, NY",
   },
   {
     area: "Sunset Park",
-    name: "Snackeria Antojitos",
+    name: "Jay Sweets Snackeria",
     address: "5311 5th Ave",
     city: "Brooklyn, NY",
   },
@@ -412,7 +412,7 @@ const HomeView = ({ onNavigate }) => (
             NYC Paleteria
           </div>
           <h1 className="font-paytone text-5xl leading-none text-white drop-shadow-[4px_4px_0_rgba(31,23,32,0.7)] sm:text-6xl lg:text-8xl">
-            SNACKERIA ANTOJITOS
+            Jay Sweets Snackeria
           </h1>
           <p className="mt-6 max-w-2xl text-lg font-black leading-relaxed text-white sm:text-2xl">
             Mexican snacks, paletas, aguas frescas, and loaded antojitos with
@@ -644,7 +644,9 @@ const MenuView = () => {
                         </span>
                         <div className="flex items-center gap-2 text-[#FF0A78]">
                           <ShoppingBag size={22} strokeWidth={3} />
-                          <span className="font-paytone text-sm">Pick your favorite</span>
+                          <span className="font-paytone text-sm">
+                            Pick your favorite
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -670,7 +672,7 @@ const LocationsView = () => (
           </h1>
         </div>
         <p className="max-w-2xl text-lg font-black leading-relaxed text-[#211620]">
-          Explore Snackeria Antojitos' New York locations. We are expanding and
+          Explore Jay Sweet Snackeria' New York locations. We are expanding and
           look forward to bringing more neighborhoods incredible Mexican snacks.
         </p>
       </div>
